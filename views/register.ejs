@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campus Chat</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/font-awesome.css">
+  </head>
+  <body>
+    <section
+      style="background: url(image/pexels-visual-tag-mx-2566581.jpg) no-repeat center center/cover;">
+      <div style="background: rgba(0, 0, 0, 0.5); display: flex">
+        <div class="home-form">
+          <form  class="form" id="reg-form">
+            <div class="form-btn">
+              <div class="icon">
+                <a href="/" style="color: red">
+                  <i class="fa fa-power-off"></i>
+                </a>
+              </div>
+              <div class="icon">
+                <button type="reset" style="color: green">
+                  <i class="fa fa-redo"></i>
+                </button>
+              </div>
+            </div>
+            <div class="form-container">
+              <div class="head"><h4>Register on Campus Chat</h4></div>
+              <input type="text" placeholder="First Name" required class="input" id="firstname"/>
+              <input type="text" placeholder="Last Name" class="input" id="lastname" required/>
+              <input
+                type="number"
+                maxlength="1"
+                placeholder="Matric-Num"
+                class="input"
+                id="matricNum"
+                required/>
+              <input
+                type="text"
+                placeholder="Birth-Date"
+                onfocus="(this.type='date')"
+                class="input"
+                id="birthdate"
+                required/>
+              <select class="input-l" id="department" required>
+                <option value="" selected disabled>Department</option>
+                <!-- <option value=""></option> -->
+                <option value="Aeronautical-Engr" >Aeronautical-Engr</option>
+                <option value="Botany">Botany</option>
+                <option value="Chemistry">Chemistry</option>
+                <option value="Chem/Polymer Engr">Chem/Polymer Engr</option>
+                <option value="Computer-Science">Computer-Science</option>
+                <option value="Dentistry">Dentistry</option>
+                <option value="Economics">Economics</option>
+                <option value="HRM">Human Resources Management</option>
+                <option value="Islamic-Studies">Islamic Studies</option>
+                <option value="Journalism">Journalism</option>
+                <option value="LAW">LAW</option>
+                <option value="Mathematics">Mathematics</option>
+                <option value="Mass-Communication">Mass-Communication</option>
+                <option value="Mechanical-Engineering"> Mechanical-Engineering</option>
+                <option value="Medcine & Surgury"> Medine & Surgury</option>
+                <option value="Political-Science">Political-Science</option>
+                <option value="Pharmacy">Pharmacy </option>
+                <option value="Physics">Physics</option>
+                <option value="Public-Admin">Pub-Administration</option>
+                <option value="Religion-Studies">Religion-Studies</option>
+                <option value=""></option>
+              </select>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+                class="input-l"
+              />
+              <input
+                type="text"
+                name="username"
+                placeholder="Username"
+                class="input-l"
+                id="username"required
+              />
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+                class="input-l"
+                id="password" required
+                autocomplete="off"
+              />
+              <input
+                type="password"
+                name="confirm"
+                id="confirm_password"
+                placeholder="Confirm password"
+                class="input-l"
+                id="" required
+                autocomplete="off"/>
+              <div class="terms" class="input-l">
+                <input type="checkbox" name="" id=""  required/>
+                I accept the <span><a href="">Terms and Conditions</a></span> of
+                the website
+              </div>
+              <button type="submit" class="form-submit">
+                Complete Registration!
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="js/form.js"></script>
+  </body>
+</html>

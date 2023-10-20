@@ -1,0 +1,111 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campus Chat </title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="image/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo">
+          <a href="#">
+            <h1 class="logo">Campus<span id="logo">Chat</span></h1>
+          </a>
+        </div>
+      
+        <div class="change-mode">
+          <i class="fa fa-moon change-theme" id="theme-button"></i>
+        </div>
+      </div>
+    </header>
+    <!-- Section -->
+    <section
+      style="
+        background: url(image/pexels-visual-tag-mx-2566581.jpg) no-repeat center
+          center/cover;
+      "
+    >
+      <div class="section overlay">
+        <div class="container">
+          <div class="home-content row">
+            <div class="home-text">
+              <h2>Welcome to the Biggest Social Network on Campus</h2>
+              <p>
+                We are the best and biggest social network with wide coverage on
+                the campus,join today and have a stress free communication.
+              </p>
+              <div class="btn">
+                <a href="/register">Register Now</a>
+              </div>
+            </div>
+            <div class="home-form">
+              <form class="form" id="login-form">
+                <div class="form-container">
+                  <div
+                    style="
+                      width: 97%;
+                      text-align: center;
+                      margin-bottom: 35px;
+                      padding: 8px 10px;
+                      border: 2px solid #e2dfdf;
+                    "
+                  >
+                    <h4>Login</h4>
+                  </div>
+                  <input
+                    type="text"
+                    name="username"
+                    id="username"
+                    placeholder="Username"
+                    required
+                    class="input-l"
+                    autocomplete="off"
+                  />
+                  <select name="room" id="room" class="input-l" required>
+                    <option value="" selected disabled>Department</option>
+                    <option value="Aeronautical-Engr">Aeronautical-Engr</option>
+                    <option value="Botany">Botany</option>
+                    <option value="Chemistry">Chemistry</option>
+                    <option value="Chem/Polymer Engr">Chem/Polymer Engr</option>
+                    <option value="Computer-Science">Computer-Science</option>
+                    <option value="Dentistry">Dentistry</option>
+                    <option value="Economics">Economics</option>
+                    <option value="HRM">Human Resources Management</option>
+                    <option value="Islamic-Studies">Islamic Studies</option>
+                    <option value="Journalism">Journalism</option>
+                    <option value="LAW">LAW</option>
+                    <option value="Mathematics">Mathematics</option>
+                    <option value="Mass-Communication">Mass-Communication</option>
+                    <option value="Mechanical-Engineering"> Mechanical-Engineering</option>
+                    <option value="Medcine & Surgury"> Medine & Surgury</option>
+                    <option value="Political-Science">Political-Science</option>
+                    <option value="Pharmacy">Pharmacy </option>
+                    <option value="Physics">Physics</option>
+                    <option value="Public-Admin">Pub-Administration</option>
+                    <option value="Religion-Studies">Religion-Studies</option>
+                  </select>
+                  <input type="password"
+                    name="password"
+                    id="password"
+                    placeholder="Password"
+                    class="input-l"
+                    autocomplete="off"
+                    required
+                  />
+                  <button type="submit" class="form-submit">Join Chat</button>
+                  <p id="parag" style="padding-top: 8px;font-size:13px;">Dont have an Account? <span><a href="/register"> Sign Up</a></span></p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/theme.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>
