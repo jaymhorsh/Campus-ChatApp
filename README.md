@@ -1,4 +1,4 @@
-<h1 align="center"> Simple Departmental ChatApp</h1>
+<h1 align="center"> Simple Campus ChatApp</h1>
 
 #### Campus chat is a chatting platform built and designed to provide users with an efficient and enjoyable chatting experience .
 
@@ -16,24 +16,16 @@
 
 
 ## Technologies Used 🛠️
-QuickClick leverages the following technologies:
+The Campus ChatApp leverage on the following technologies:
 
-### Frontend:
-
-+ Socket.io
-
-+ Styled-Components for styling
-+ Axios for API integration
-
-### Backend:
-
++ Socket.io library for client/server communication 
++ Css for styling
 + Node.js with Express.js
 + MongoDB for data storage
 + JWT authentication
-+ Bycrypt for password encryprtion
++ Bycrypt for data encryption
 
 ## Installation 🦾
-
 #### To run Campus-Chat locally, follow these steps:
 
 ```bash
