@@ -19,6 +19,7 @@
 The Campus ChatApp leverage on the following technologies:
 
 + Socket.io library for client/server communication 
++ EJS for frontend 
 + Css for styling
 + Node.js with Express.js
 + MongoDB for data storage
