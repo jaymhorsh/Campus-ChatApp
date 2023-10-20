@@ -4,17 +4,17 @@ const express = require("express");
 const socketio = require("socket.io");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
-const User = require("./models/userModel");
+const User = require("./Backend/models/userModel");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const formatMessage = require("./utils/messages");
-const config = require("./config");
+const formatMessage = require("./Backend/utils/messages");
+const config = require("./Backend/config");
 const {
   userJoin,
   getCurrentUser,
   userLeave,
   getRoomUsers,
-} = require("./utils/users");
+} = require("./Backend/utils/users");
 
 // Connecting to mongodb
 mongoose

@@ -1,5 +1,5 @@
 {
-  "name": "Campus Chat",
+  "name": "Campus ChatApp",
   "version": "1.0.0",
   "description": "ChatApp With socket",
   "main": "server.js",
