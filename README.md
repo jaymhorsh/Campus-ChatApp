@@ -1,4 +1,4 @@
-<h1 align="center"> Simple Campus ChatApp</h1>
+<h1 align="center">Campus ChatApp</h1>
 
 #### Campus chat is a chatting platform built and designed to provide users with an efficient and enjoyable chatting experience .
 
